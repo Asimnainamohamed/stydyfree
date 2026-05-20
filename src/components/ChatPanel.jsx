@@ -48,6 +48,13 @@ export default function ChatPanel({ currentVideoUrl }) {
       setMessages((value) => [...value, { role: 'assistant', content: reply }]);
     } catch (error) {
       toast.error(error.message);
+      setMessages((value) => [
+        ...value,
+        {
+          role: 'assistant',
+          content: `I could not connect to the AI assistant. ${error.message}`,
+        },
+      ]);
     } finally {
       setLoading(false);
     }

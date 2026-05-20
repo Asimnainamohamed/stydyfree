@@ -10,6 +10,7 @@ StudyNest is a React + Vite study platform with Supabase auth/storage, YouTube s
    - `VITE_SUPABASE_PUBLISHABLE_KEY` or `VITE_SUPABASE_ANON_KEY`
    - `VITE_YOUTUBE_API_KEY`
    - `VITE_OPENROUTER_API_KEY`
+   - `VITE_OPENROUTER_MODEL` optional, defaults to `openrouter/free`
 3. Run the SQL in `supabase/schema.sql` inside the Supabase SQL editor.
 4. Start the app with `npm run dev`.
 
@@ -34,3 +35,4 @@ Add these environment variables on your hosting provider:
 - `VITE_SUPABASE_PUBLISHABLE_KEY` or `VITE_SUPABASE_ANON_KEY`
 - `VITE_YOUTUBE_API_KEY`
 - `VITE_OPENROUTER_API_KEY`
+- `VITE_OPENROUTER_MODEL` optional, defaults to `openrouter/free`

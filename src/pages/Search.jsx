@@ -68,7 +68,7 @@ export default function Search() {
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="time and work aptitude tamil"
+            placeholder="Search here"
             className="min-h-12 w-full rounded-lg border border-slate-200 bg-white py-3 pl-10 pr-3 text-slate-950 outline-none focus:border-indigo-500 dark:border-slate-700 dark:bg-slate-900 dark:text-white"
           />
         </label>
