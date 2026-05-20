@@ -1,0 +1,20 @@
+{
+  "name": "StudyNest",
+  "short_name": "StudyNest",
+  "description": "An AI-powered study app for YouTube lessons, notes, screenshots, and revision.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/studynest.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
